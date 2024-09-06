@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# creat-react-app项目模版
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+### create-react-app+typescript+eslint+prettier+husky+lint-staged+commitlint
+
+本项目是基于create-react-app+typescript项目模版，在编码规范使用了eslint+prettier,代码提交限制配置了husky+lint-staged+commitlint。
+
+当从零搭建项目时，可直接拉此模版进行开发，可减少规范配置。
+
 ## Available Scripts
+
+### `npm install`
 
 In the project directory, you can run:
 
