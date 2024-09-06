@@ -13,15 +13,6 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
-  // Prettier 配置，禁用与 Prettier 冲突的 ESLint 规则
-  {
-    plugins: {
-      prettier,
-    },
-    rules: {
-      'prettier/prettier': 'error',
-    },
-  },
   // React 配置
   {
     plugins: {
@@ -51,6 +42,15 @@ export default [
       react: {
         version: 'detect', // 自动检测 React 版本
       },
+    },
+  },
+  // Prettier 配置，禁用与 Prettier 冲突的 ESLint 规则
+  {
+    plugins: {
+      prettier,
+    },
+    rules: {
+      'prettier/prettier': 'error',
     },
   },
 ];
